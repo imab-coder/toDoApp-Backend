@@ -612,7 +612,7 @@
     "version": "1.0.0",
     "type": "post",
     "url": "/api/v1/friends/accept/friend/request",
-    "title": "api for Accepting Friend Request.",
+    "title": "Accept Friend Request.",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -672,7 +672,7 @@
     "version": "1.0.0",
     "type": "post",
     "url": "/api/v1/friends/cancel/friend/request",
-    "title": "api to Cancel Friend Request.",
+    "title": "Cancel Friend Request.",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -732,7 +732,7 @@
     "version": "1.0.0",
     "type": "post",
     "url": "/api/v1/friends/reject/friend/request",
-    "title": "api for Rejecting Friend Request.",
+    "title": "Reject Friend Request.",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -792,7 +792,7 @@
     "version": "1.0.0",
     "type": "post",
     "url": "/api/v1/friends/send/friend/request",
-    "title": "api for Sending Friend Request.",
+    "title": "Send Friend Request.",
     "parameter": {
       "fields": {
         "Parameter": [

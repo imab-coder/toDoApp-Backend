@@ -71,7 +71,7 @@ let setRouter = (app) => {
     /**
      * @apiGroup friends
      * @apiVersion  1.0.0
-     * @api {post} /api/v1/friends/send/friend/request api for Sending Friend Request.
+     * @api {post} /api/v1/friends/send/friend/request Send Friend Request.
      *
      * @apiParam {string} authToken authToken. (query/body/header params) (required)
      * @apiParam {string} senderId userId of the Sender. (body params) (required)
@@ -94,7 +94,7 @@ let setRouter = (app) => {
     /**
     * @apiGroup friends
     * @apiVersion  1.0.0
-    * @api {post} /api/v1/friends/accept/friend/request api for Accepting Friend Request.
+    * @api {post} /api/v1/friends/accept/friend/request Accept Friend Request.
     *
     * @apiParam {string} authToken authToken. (query/body/header params) (required)
     * @apiParam {string} senderId userId of the Sender. (body params) (required)
@@ -116,7 +116,7 @@ let setRouter = (app) => {
     /**
      * @apiGroup friends
      * @apiVersion  1.0.0
-     * @api {post} /api/v1/friends/reject/friend/request api for Rejecting Friend Request.
+     * @api {post} /api/v1/friends/reject/friend/request Reject Friend Request.
      *
      * @apiParam {string} authToken authToken. (query/body/header params) (required)
      * @apiParam {string} senderId userId of the Sender. (body params) (required)
@@ -139,7 +139,7 @@ let setRouter = (app) => {
     /**
      * @apiGroup friends
      * @apiVersion  1.0.0
-     * @api {post} /api/v1/friends/cancel/friend/request api to Cancel Friend Request.
+     * @api {post} /api/v1/friends/cancel/friend/request Cancel Friend Request.
      *
      * @apiParam {string} authToken authToken. (query/body/header params) (required)
      * @apiParam {string} senderId userId of the Sender. (body params) (required)
